@@ -37,9 +37,10 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CharachterController.cs" />
-     <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\SpawnMenager.cs" />
      <Compile Include="Assets\Scripts\RoadSpawner.cs" />
+     <Compile Include="Assets\Scripts\CameraController.cs" />
+     <None Include="Assets\Sounds\license.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -637,11 +638,11 @@
     <Reference Include="Unity.Rider.Editor">
         <HintPath>C:\Users\keksikq\Documents\Unity_Projects\InfiniteRoad\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>C:\Users\keksikq\Documents\Unity_Projects\InfiniteRoad\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.ProGrids.Editor">
         <HintPath>C:\Users\keksikq\Documents\Unity_Projects\InfiniteRoad\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>C:\Users\keksikq\Documents\Unity_Projects\InfiniteRoad\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids">
         <HintPath>C:\Users\keksikq\Documents\Unity_Projects\InfiniteRoad\Library\ScriptAssemblies\Unity.ProGrids.dll</HintPath>
